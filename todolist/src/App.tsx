@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 function App() {
   return (
     <Container maxWidth="md">
+      <CssBaseline />
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6"> My Todos </Typography>
